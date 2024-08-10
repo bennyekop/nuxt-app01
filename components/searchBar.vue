@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col d-flex flex-column justify-content-center text-center p-3 search-box" :class="typeof weather.main != 'undefined' ? 'top-screen' : 'mid-screen'">
       <h2 class="mb-5">
-        Nuxt.js/Vue.js Weather
+        Nuxt.js/Vue.js Weather V.1
       </h2>
       <input
         id="queryInput"

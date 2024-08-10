@@ -1,43 +1,24 @@
-# Jadoo
+# nuxt-weather
 
-Jadoo is a travel agency landing page built with Nuxt 3 and TailwindCSS.
+> weather forecast app created in nuxt/vue
 
-## Setup
+uses openweathermap api for weather data and google places api for locations list dropdown
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+## Build Setup
 
 ```bash
-# npm
-npm run dev
+# install dependencies
+$ npm install
 
-# pnpm
-pnpm run dev
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-# yarn
-yarn dev
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
 ```
 
-## Figma Design
-
-Here is the link to the figma design for the Jadoo.
-
-[Jadoo Figma File](https://www.figma.com/file/ueZJdVwFai18bVSDnkhsN1/Travel-Website-Landing-Page-(Community)-(Copy)?type=design&node-id=0%3A1&mode=design&t=nFhek10pRK80Fsv0-1)
-
-## Jadoo Figma Design Image
-
-![Jadoo ](/jadoo.jpg "Jadoo ")
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
